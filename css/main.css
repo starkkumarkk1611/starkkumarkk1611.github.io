@@ -1101,30 +1101,39 @@ header .top-bar {
 	position: absolute;
 	left: 90px;
 	top: 0;
+
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
+	 margin-left: 20px;
+	margin-top: 20px; 
 	position: relative;
-	text-align: center;
-	vertical-align: middle;
-}
-header .logo a {
-	color: white;
-	display: block;
 
-	border: none;
+	font-family: "poppins-bold", sans-serif;
+
+	letter-spacing: 1rem;	
+	color: white;
 	font-size: 2rem;
 	font-weight: 600;
-	font-family: "poppins-medium", sans-serif;
+}
 
-	
+
+/* header .logo a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font: 0/0 a;
+	text-shadow: none;
+	color: white;
 	width: 92px;
 	height: 15px;
+	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
-}
+	text-align: center;
+	border: 2px solid rebeccapurple;
+
+} */
 
 /**
  * menu toggle - (_layout.css)
