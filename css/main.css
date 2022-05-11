@@ -1108,18 +1108,21 @@ header .logo {
 	margin-right: 50px;
 	margin-top: 25px;
 	position: relative;
+	text-align: center;
+	vertical-align: middle;
 }
 header .logo a {
+	color: white;
 	display: block;
-	margin: 0;
-	padding: 0;
+
 	border: none;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: "poppins-medium", sans-serif;
+
+	
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
