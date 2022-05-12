@@ -2164,11 +2164,14 @@ header .logo {
 .services-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
-}
-.services-list .icon i {
 	font-size: 5.4rem;
-	color: #FF0077;
+	fill: #FF0077 !important;
+	height: 9rem;
+
 }
+/* .services-list .icon svg {
+
+} */
 .services-list h3 {
 	color: #FFFFFF;
 }
